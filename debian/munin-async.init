@@ -17,7 +17,7 @@
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="Munin asynchronous server"
 NAME=munin-asyncd
-DAEMON=/usr/share/munin/$NAME
+DAEMON=/usr/sbin/$NAME
 DAEMON_ARGS=""
 DAEMON_USER="munin-async"
 PIDFILE=/var/run/munin/$NAME.pid
